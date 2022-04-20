@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational RC</title>
+    <!--css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+
+     <!--start page content-->
+   <div class="header d-flex justify-content-center">
+    <h1>Tick (✓) the foods that are good for you. Then say.</h1>
+  </div>
+
+   <main id="main">
+       <div class="container-fluid">
+           <div class="content">
+            <div id="carouselExampleControls" class="carousel slide" data-interval="false"  data-ride="carousel">
+                <div class="carousel-inner" >
+                  <div class="carousel-item active" data-num="2">
+                   <img src="images/p77ex19.png">
+                   <div class="question-container">
+                       <div class="container">
+                           <div class="row">
+                               <div class="col-4">
+                                <div class="question" id="1">
+                                    <img src="images/q1.png">  
+                                    <div class="drop question-1"  >
+                                      <div class="box"></div>
+                                      <div class="answers" data-id="q1">
+                                        <div class="answer right" data-ans="correct">✓</div>
+                                        <div class="answer wrong" data-ans="incorrect">✗</div>
+                                      </div>
+                                    </div>
+                                </div>
+                               </div>
+                               <div class="col-4 offset-2">
+                                <div class="question" id="3">
+                                    <img src="images/q3.png">  
+                                    <div class="drop  question-3"  >
+                                      <div class="box"></div>
+                                      <div class="answers" data-id="q3">
+                                        <div class="answer right" data-ans="correct">✓</div>
+                                        <div class="answer wrong" data-ans="incorrect">✗</div>
+                                      </div>
+                                    </div>  
+                                </div>
+                               </div>
+                           </div>
+                           <div class="row third" style="margin-top: 24px;">
+                            <div class="col-4 offset-2">
+                             <div class="question" id="2">
+                                 <img src="images/q2.png">    
+                                 <div class="drop  question-2"  >
+                                  <div class="box"></div>
+                                  <div class="answers" id="q2" data-id="q2">
+                                    <div class="answer right" data-ans="correct">✓</div>
+                                    <div class="answer wrong" data-ans="incorrect">✗</div>
+                                  </div>
+                                </div>
+                             </div>
+                            </div>
+                            <div class="col-4 offset-2">
+                             <div class="question" id="4">
+                                 <img src="images/q4.png">    
+                                 <div class="drop  question-4"  >
+                                  <div class="box"></div>
+                                  <div class="answers" data-id="q4">
+                                    <div class="answer right" data-ans="correct">✓</div>
+                                    <div class="answer wrong" data-ans="incorrect">✗</div>
+                                  </div>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                       </div>
+                   </div>
+                  </div>
+
+                  <div class="carousel-item" data-num="1">    
+                    <img src="images/p77ex19.png">
+                    <div class="question-container">
+                      <div class="container">
+                          <div class="row second">
+                              <div class="col-4 offset-2">
+                               <div class="question"  id="5">
+                                   <img class="yogurt" src="images/q5.png"> 
+                                   <div class="drop  question-5"  >
+                                    <div class="box except" style="margin-left: 58px;"></div>
+                                    <div class="answers" data-id="q5">
+                                      <div class="answer except right" style="margin-left: 58px;" data-ans="correct">✓</div>
+                                      <div class="answer except wrong" style="margin-left: 58px;" data-ans="incorrect">✗</div>
+                                    </div>
+                                  </div>   
+                               </div>
+                              </div>
+                              <div class="col-4 offset-2">
+                               <div class="question" id="6">
+                                   <img class="choc"  src="images/q6.png">  
+                                   <div class="drop  question-6"  >
+                                    <div class="box"></div>
+                                    <div class="answers" data-id="q6">
+                                      <div class="answer right" data-ans="correct">✓</div>
+                                      <div class="answer wrong" data-ans="incorrect">✗</div>
+                                    </div>
+                                  </div>  
+                               </div>
+                              </div>
+                          </div>
+                          <div class="row second" style="margin-top: 40px;">
+                           <div class="col-3 offset-3">
+                            <div class="question" id="7">
+                                <img src="images/q7.png">  
+                                <div class="drop  question-7"  >
+                                  <div class="box"></div>
+                                  <div class="answers" data-id="q7">
+                                    <div class="answer right" data-ans="correct">✓</div>
+                                    <div class="answer wrong" data-ans="incorrect">✗</div>
+                                  </div>
+                                </div>  
+                            </div>
+                           </div>
+                           <div class="col-3 offset-3">
+                            <div class="question" id="8">
+                                <img class="vegetable" src="images/q8.png">  
+                                <div class="drop  question-8"  >
+                                  <div class="box"></div>
+                                  <div class="answers q8" data-id="q8">
+                                    <div class="answer right" data-ans="correct">✓</div>
+                                    <div class="answer wrong" data-ans="incorrect">✗</div>
+                                  </div>
+                                </div>  
+                            </div>
+                           </div>
+                       </div>
+                      </div>
+                  </div>
+                  </div>
+                  
+                </div>
+                
+                
+              </div>
+           </div>
+        
+       </div>
+  </main>
+     <!--start footer-->
+  <footer>
+    <div class="parent" style="display: flex; justify-content: space-between;">
+      <div class="child1" style="width: 10%;">
+        <img class="replay" src="images/replay_icon.png">
+      </div>
+      <div class="child2" style="width: 40%;"></div>
+      <div class="child3" style="width: 50%; display: flex; justify-content: space-around;">
+        <div class="one">
+          <img class="reload" src="images/reload_icon.png">
+        </div>
+        <div class="two">
+          <img class="showAnswer" src="images/showAns_icon.png">
+        </div>
+        <div class="three">
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </div>
+        <div class="four">
+          <p class="pageNumber">1 of 2</p>
+        </div>
+        <div class="five">
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--end footer-->
+   
+  </div>
+     <!--end page content-->
+  
+   <audio controls id="correct" style="display: none;" src="correct.mp3"></audio>
+  <audio controls id="incorrect" style="display: none;" src="incorrect.mp3"></audio>
+  <!--spinner-->
+  <div class="loading">
+    <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+  </div>
+
+  <!--spinner-->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   <script src='main.js'></script>
+  </body>
+</html>
